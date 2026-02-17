@@ -15,7 +15,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     { import = "core.plugins" },
-    { import = "core.plugins.lsp"},
+    -- { import = "core.plugins.lsp"},
 },
     {  -- Add this options table as second argument
         checker = {
